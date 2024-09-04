@@ -1,0 +1,41 @@
+
+body{
+    text-align:center;
+}
+
+.btn{
+    height:150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+}
+
+#btn-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one{
+    background-color: red;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: rgb(97, 212, 97);
+}
+.four{
+    background-color: rgb(80, 80, 237);
+}
+
+/* class will be added to flash the button */
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: limegreen;
+}
+
